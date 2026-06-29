@@ -1,0 +1,6 @@
+{
+  "name": "Atelier",
+  "description": "A high-fidelity full-stack social e-commerce platform inspired by Meesho and Atelier, featuring dual buyer/seller authentication, interactive profit margin calculators, product listings, in-depth search & filters, and a multi-step shipping/payment checkout experience.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
