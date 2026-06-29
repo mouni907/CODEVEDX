@@ -1,0 +1,6 @@
+{
+  "name": "JobHub",
+  "description": "A premium modern full-stack Job Portal matching candidates with top employers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

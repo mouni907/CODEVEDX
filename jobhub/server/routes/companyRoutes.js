@@ -1,0 +1,10 @@
+import { Router } from 'express';
+import { getCompanies, getCompanyById, getMyCompany, createOrUpdateCompany } from '../controllers/companyController';
+import { protect, authorize } from '../middleware/authMiddleware';
+import { upload } from '../utils/upload';
+const router = Router();
+router.get('/', getCompanies);
+router.get('/my-company', protect, authorize(['employer']), getMyCompany);
+router.post('/', protect, authorize(['employer']), upload.single('file'), createOrUpdateCompany);
+router.get('/:id', getCompanyById);
+export default router;

@@ -1,0 +1,10 @@
+import { Router } from 'express';
+import { applyForJob, getMyApplications, getApplicantsForJob, updateApplicationStatus, } from '../controllers/applicationController';
+import { protect, authorize } from '../middleware/authMiddleware';
+import { upload } from '../utils/upload';
+const router = Router();
+router.post('/apply', protect, authorize(['candidate']), upload.single('file'), applyForJob);
+router.get('/my-applications', protect, authorize(['candidate']), getMyApplications);
+router.get('/applicants/:jobId', protect, authorize(['employer']), getApplicantsForJob);
+router.put('/status/:id', protect, authorize(['employer']), updateApplicationStatus);
+export default router;

@@ -1,0 +1,11 @@
+import { Router } from 'express';
+import { getJobs, getJobById, getMyJobs, createJob, updateJob, deleteJob } from '../controllers/jobController';
+import { protect, authorize } from '../middleware/authMiddleware';
+const router = Router();
+router.get('/', getJobs);
+router.get('/my-jobs', protect, authorize(['employer']), getMyJobs);
+router.post('/', protect, authorize(['employer']), createJob);
+router.get('/:id', getJobById);
+router.put('/:id', protect, authorize(['employer']), updateJob);
+router.delete('/:id', protect, authorize(['employer']), deleteJob);
+export default router;
