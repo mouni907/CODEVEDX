@@ -1,0 +1,53 @@
+.appContainer {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--color-bg-page);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: var(--color-text-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+.mainContent {
+  flex: 1;
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 640px) {
+  .mainContent {
+    padding: 2.5rem 1.5rem;
+  }
+}
+
+@media (max-width: 639px) {
+  .appContainer {
+    flex-direction: row;
+    align-items: stretch;
+  }
+  
+  .mainContent {
+    flex: 1;
+    height: 100vh;
+    overflow-y: auto;
+    max-width: none;
+    margin: 0;
+    padding: 1rem;
+  }
+}
+
+.fadeEnter {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

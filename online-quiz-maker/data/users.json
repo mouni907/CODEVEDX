@@ -1,0 +1,43 @@
+[
+  {
+    "id": "user_admin",
+    "username": "Admin",
+    "password": "Admin@123",
+    "role": "admin",
+    "createdAt": "2026-06-28T10:52:43.248Z"
+  },
+  {
+    "id": "user_3mpdxahvy",
+    "username": "Mouni",
+    "createdAt": "2026-06-28T05:48:47.407Z",
+    "password": "mouni@123"
+  },
+  {
+    "id": "user_n5863643m",
+    "username": "surekha",
+    "role": "user",
+    "createdAt": "2026-06-28T06:52:16.471Z",
+    "password": "surekha@123"
+  },
+  {
+    "id": "user_h983qozr3",
+    "username": "sujana",
+    "role": "user",
+    "createdAt": "2026-06-28T06:54:18.977Z",
+    "password": "sujana@123"
+  },
+  {
+    "id": "user_fe9g6fc2e",
+    "username": "harika",
+    "role": "user",
+    "createdAt": "2026-06-28T06:56:21.932Z",
+    "password": "harika@123"
+  },
+  {
+    "id": "user_admin",
+    "username": "Admin",
+    "password": "Admin@123",
+    "role": "admin",
+    "createdAt": "2026-06-28T07:32:25.555Z"
+  }
+]

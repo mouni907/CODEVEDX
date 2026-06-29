@@ -1,0 +1,296 @@
+[
+  {
+    "id": "attempt_nxqxktb58",
+    "userId": "user_3mpdxahvy",
+    "username": "Mouni",
+    "quizId": "quiz-1",
+    "quizTitle": "Web Development Essentials",
+    "score": 4,
+    "totalQuestions": 4,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q4",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      }
+    ],
+    "completedAt": "2026-06-28T10:54:21.817Z"
+  },
+  {
+    "id": "attempt_e0nearg53",
+    "userId": "user_3mpdxahvy",
+    "username": "Mouni",
+    "quizId": "quiz-2",
+    "quizTitle": "General Science Trivia",
+    "score": 3,
+    "totalQuestions": 3,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 3,
+        "correctAnswerIndex": 3,
+        "isCorrect": true
+      }
+    ],
+    "completedAt": "2026-06-28T10:54:32.486Z"
+  },
+  {
+    "id": "attempt_vkscpg0lk",
+    "userId": "user_n5863643m",
+    "username": "surekha",
+    "quizId": "quiz-1",
+    "quizTitle": "Web Development Essentials",
+    "score": 4,
+    "totalQuestions": 4,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q4",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      }
+    ],
+    "completedAt": "2026-06-28T10:55:13.491Z"
+  },
+  {
+    "id": "attempt_kpgjo7b16",
+    "userId": "user_n5863643m",
+    "username": "surekha",
+    "quizId": "quiz-2",
+    "quizTitle": "General Science Trivia",
+    "score": 2,
+    "totalQuestions": 3,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 3,
+        "isCorrect": false
+      }
+    ],
+    "completedAt": "2026-06-28T10:55:24.611Z"
+  },
+  {
+    "id": "attempt_wlfxkioe9",
+    "userId": "user_h983qozr3",
+    "username": "sujana",
+    "quizId": "quiz-1",
+    "quizTitle": "Web Development Essentials",
+    "score": 3,
+    "totalQuestions": 4,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 1,
+        "isCorrect": false
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q4",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      }
+    ],
+    "completedAt": "2026-06-28T10:56:05.628Z"
+  },
+  {
+    "id": "attempt_n3q2pupmm",
+    "userId": "user_h983qozr3",
+    "username": "sujana",
+    "quizId": "quiz-2",
+    "quizTitle": "General Science Trivia",
+    "score": 3,
+    "totalQuestions": 3,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 3,
+        "correctAnswerIndex": 3,
+        "isCorrect": true
+      }
+    ],
+    "completedAt": "2026-06-28T10:56:16.448Z"
+  },
+  {
+    "id": "attempt_4a8gx8uu0",
+    "userId": "user_fe9g6fc2e",
+    "username": "harika",
+    "quizId": "quiz-2",
+    "quizTitle": "General Science Trivia",
+    "score": 2,
+    "totalQuestions": 3,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 3,
+        "isCorrect": false
+      }
+    ],
+    "completedAt": "2026-06-28T10:57:20.045Z"
+  },
+  {
+    "id": "attempt_xyzej18oz",
+    "userId": "user_fe9g6fc2e",
+    "username": "harika",
+    "quizId": "quiz-1",
+    "quizTitle": "Web Development Essentials",
+    "score": 2,
+    "totalQuestions": 4,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 1,
+        "isCorrect": false
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 3,
+        "correctAnswerIndex": 2,
+        "isCorrect": false
+      },
+      {
+        "questionId": "q4",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      }
+    ],
+    "completedAt": "2026-06-28T10:57:32.245Z"
+  },
+  {
+    "id": "attempt_wbyxf64kz",
+    "userId": "user_3mpdxahvy",
+    "username": "Mouni",
+    "quizId": "quiz-2",
+    "quizTitle": "General Science Trivia",
+    "score": 3,
+    "totalQuestions": 3,
+    "results": [
+      {
+        "questionId": "q1",
+        "selectedAnswerIndex": 2,
+        "correctAnswerIndex": 2,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q2",
+        "selectedAnswerIndex": 1,
+        "correctAnswerIndex": 1,
+        "isCorrect": true
+      },
+      {
+        "questionId": "q3",
+        "selectedAnswerIndex": 3,
+        "correctAnswerIndex": 3,
+        "isCorrect": true
+      }
+    ],
+    "completedAt": "2026-06-28T17:18:13.007Z"
+  }
+]

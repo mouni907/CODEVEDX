@@ -1,0 +1,6 @@
+{
+  "name": "Online Quiz Maker",
+  "description": "An interactive full-stack platform to create, share, and take quizzes with real-time feedback and progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

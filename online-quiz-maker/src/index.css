@@ -1,0 +1,207 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #0a1120; /* Deep slate-navy from the photo */
+  --color-primary-hover: #1e293b;
+  --color-primary-light: #f1f5f9;
+  --color-primary-active: #e2e8f0;
+  --color-primary-text: #0a1120;
+  --color-primary-btn-text: #ffffff; /* White text on dark buttons */
+  
+  --color-accent: #1adbb9; /* Vibrant mint-teal from the photo "Maker" */
+  --color-accent-hover: #14b8a6;
+  --color-accent-light: #f0fdfa;
+  --color-accent-text: #0d9488;
+  
+  --color-bg-page: #f8fafc; /* Crisp clean white-slate background */
+  --color-bg-main: #f1f5f9; /* Subtle light gray-slate for inner card elements */
+  --color-bg-card: #ffffff; /* Pure white card background */
+  --color-text-main: #0a1120; /* Deep slate-navy for high-contrast crisp text inside white cards */
+  --color-text-muted: #475569; /* Muted slate gray */
+  --color-border: #e2e8f0; /* Subtle grey borders inside cards */
+  --color-border-page: #e2e8f0; /* Borders on page level */
+
+  --color-text-page-title: #0a1120; /* Dark titles for page headers against the light background */
+  --color-text-page-subtitle: #475569; /* Dark subtitles */
+  
+  /* Additional UI Status Colors */
+  --color-success: #10b981; /* Emerald 500 */
+  --color-success-bg: #ecfdf5;
+  --color-success-border: #a7f3d0;
+  
+  --color-danger: #ef4444; /* Red 500 */
+  --color-danger-bg: #fef2f2;
+  --color-danger-border: #fca5a5;
+  
+  --color-info: #3b82f6; /* Blue 500 */
+  --color-info-bg: #eff6ff;
+  --color-info-border: #bfdbfe;
+
+  /* Custom Navbar Theme Override for Light Mode */
+  --color-nav-bg: #0a1120; /* Deep slate-navy from the photo to combine with white */
+  --color-nav-text: #ffffff; /* Crisp white text for contrast */
+  --color-nav-muted: #94a3b8; /* Muted slate for links */
+  --color-nav-border: #1e293b; /* Subtle border */
+}
+
+/* Base application background and text colors using theme variables */
+html, body {
+  background-color: var(--color-bg-page);
+  color: var(--color-text-main);
+}
+
+/* Dark Mode Variable Overrides */
+html[data-theme="dark"],
+body[data-theme="dark"],
+.dark {
+  --color-primary: #1adbb9; /* Vibrant mint-teal */
+  --color-primary-hover: #14b8a6;
+  --color-primary-light: #0d1527; /* Deep slate-navy from the photo */
+  --color-primary-active: #1e293b;
+  --color-primary-text: #1adbb9;
+  --color-primary-btn-text: #030712; /* Black text on mint buttons */
+
+  --color-accent: #1adbb9; /* Mint-teal */
+  --color-accent-hover: #14b8a6;
+  --color-accent-light: #0d1527;
+  --color-accent-text: #1adbb9;
+
+  --color-bg-page: #030712; /* Pure black background ("in dark mode black") */
+  --color-bg-main: #0a1120; /* Deep slate-navy from photo ("and that color in photo") */
+  --color-bg-card: #0a1120; /* Deep slate-navy card background */
+  --color-text-main: #f8fafc; /* Crisp bright text */
+  --color-text-muted: #94a3b8; /* Muted text */
+  --color-border: #1e293b; /* Subtle dark border */
+  --color-border-page: #1e293b;
+
+  --color-text-page-title: #ffffff; /* White title for dark background */
+  --color-text-page-subtitle: #94a3b8;
+
+  --color-success-bg: #062f22;
+  --color-success-border: #047857;
+
+  --color-danger-bg: #450a0a;
+  --color-danger-border: #b91c1c;
+
+  --color-info-bg: #172554;
+  --color-info-border: #1d4ed8;
+
+  /* Custom Navbar Theme Override for Dark Mode */
+  --color-nav-bg: #030712; /* Black navbar */
+  --color-nav-text: #f8fafc;
+  --color-nav-muted: #94a3b8;
+  --color-nav-border: #1e293b;
+}
+
+/* Global Page Header Overrides to ensure high contrast in Light Mode against dark background */
+div[class*="sectionHeader"] h1,
+div[class*="headingArea"] h1,
+div[class*="titleSection"] h1,
+h1[class*="heading"],
+h1[class*="title"],
+.titleSection h1 {
+  color: var(--color-text-page-title) !important;
+}
+
+div[class*="sectionHeader"] p,
+div[class*="headingArea"] p,
+div[class*="titleSection"] p,
+p[class*="subheading"],
+p[class*="subtitle"],
+.titleSection p {
+  color: var(--color-text-page-subtitle) !important;
+}
+
+div[class*="sectionHeader"],
+div[class*="headingArea"],
+div[class*="header"] {
+  border-bottom-color: var(--color-border-page) !important;
+}
+
+/* Smooth transitions when switching themes */
+html,
+body, 
+main,
+header, 
+footer, 
+div, 
+section, 
+span, 
+p, 
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+button, 
+input, 
+textarea, 
+select, 
+label, 
+table, 
+tr, 
+th, 
+td {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease, box-shadow 0.25s ease;
+}
+
+/* ==========================================
+   Custom Global Hover Messages (Tooltips)
+   ========================================== */
+[data-tooltip] {
+  position: relative;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translate(-50%, 6px);
+  background-color: #0a1120; /* High-contrast deep slate-navy */
+  color: #1adbb9; /* Vibrant mint-teal text */
+  border: 1.5px solid #1adbb9; /* Mint-teal neon border */
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  padding: 0.4rem 0.75rem;
+  border-radius: 0.5rem;
+  white-space: nowrap;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.3), 0 0 12px rgba(26, 219, 185, 0.3);
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.1s cubic-bezier(0.16, 1, 0.3, 1), transform 0.1s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.1s ease;
+}
+
+[data-tooltip]::before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% + 2px);
+  left: 50%;
+  transform: translate(-50%, 6px);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #1adbb9 transparent transparent transparent;
+  z-index: 10000;
+  pointer-events: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.1s cubic-bezier(0.16, 1, 0.3, 1), transform 0.1s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.1s ease;
+}
+
+[data-tooltip]:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+}
+
+[data-tooltip]:hover::before {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+}
+
+

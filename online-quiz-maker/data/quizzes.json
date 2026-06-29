@@ -1,0 +1,101 @@
+[
+  {
+    "id": "quiz-1",
+    "title": "Web Development Essentials",
+    "description": "Test your knowledge on modern HTML, CSS, JavaScript, and general web technologies.",
+    "creatorId": "system",
+    "creatorName": "QuizMaker System",
+    "createdAt": "2026-06-28T10:52:43.249Z",
+    "playsCount": 28,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "Which HTML5 element is used to display self-contained illustrative content, such as diagrams or photos?",
+        "options": [
+          "<aside>",
+          "<figure>",
+          "<section>",
+          "<details>"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "q2",
+        "text": "What does CSS stand for?",
+        "options": [
+          "Computer Style Sheets",
+          "Creative Style Sheets",
+          "Cascading Style Sheets",
+          "Colorful Style Sheets"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "q3",
+        "text": "Which of the following is NOT a valid JavaScript primitive type?",
+        "options": [
+          "string",
+          "boolean",
+          "array",
+          "symbol"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "q4",
+        "text": "In React, what hook would you use to perform side effects in functional components?",
+        "options": [
+          "useState",
+          "useContext",
+          "useEffect",
+          "useReducer"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "quiz-2",
+    "title": "General Science Trivia",
+    "description": "Explore the fascinating world of science! Covers biology, physics, and basic chemical elements.",
+    "creatorId": "system",
+    "creatorName": "QuizMaker System",
+    "createdAt": "2026-06-28T10:52:43.249Z",
+    "playsCount": 20,
+    "questions": [
+      {
+        "id": "q1",
+        "text": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondria",
+          "Endoplasmic Reticulum"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "id": "q2",
+        "text": "Which planet in our solar system is known as the Red Planet?",
+        "options": [
+          "Venus",
+          "Mars",
+          "Jupiter",
+          "Saturn"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "id": "q3",
+        "text": "What is the chemical symbol for Gold?",
+        "options": [
+          "Gd",
+          "Ag",
+          "Fe",
+          "Au"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
+  }
+]
